@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    border: 2px solid lightgray;
+}
+
+h2 {
+    opacity: 0.3;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding: 8px;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: lightgray;
+    margin: 3px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header-nav a {
+    border-left: 2px solid gray;
+}
+
+.current-page {
+    border-left: none;
+    background-color: red;
+    color: white;
+}
+
+article {
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+
+.card {
+    background-color: gray;
+    padding: 5px;
+}
+
+.card-header {
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.card-body {
+    color: blanchedalmond;
+    padding: 3px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.footer-nav {
+    border: 2px solid gray;
+    max-width: 300px;
+}

@@ -1,0 +1,41 @@
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+}
+
+.card {
+    flex: 1 0 400px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.current-page {
+    justify-self: flex-start;
+}
+
+.card {
+    align-self: flex-end;
+    height: fit-content;
+}
